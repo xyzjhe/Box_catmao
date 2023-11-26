@@ -81,7 +81,7 @@ android {
         }
     }
 
-    buildTypes {
+     buildTypes {
 
        
         release {
@@ -94,6 +94,7 @@ android {
 
         }
     }
+
 
     applicationVariants.all { variant ->
         variant.outputs.all {

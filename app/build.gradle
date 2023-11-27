@@ -86,13 +86,13 @@ android {
         debug {
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            minifyEnabled false
+            minifyEnabled true
 
         }
         release {
             signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            minifyEnabled false   // 是否代码混淆
+            minifyEnabled true   // 是否代码混淆
             multiDexEnabled true // 防止方法数量超过65536导致错误
             shrinkResources true // 删除无用资源
             zipAlignEnabled true

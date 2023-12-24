@@ -15,7 +15,7 @@ android {
             abiFilters "armeabi-v7a"
         }
        python {
-            version "3.8"
+            version "3.8.13"
             pip {
                 install "pycrypto"
                 install "requests"

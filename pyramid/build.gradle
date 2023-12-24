@@ -15,12 +15,14 @@ android {
             abiFilters "armeabi-v7a"
         }
        python {
-            version "3.8"
-            pip {
-                install "lxml"
+            version "3.8.5"
+           pip {
+                install "pycrypto"
                 install "requests"
-                install 'pycryptodome'
-                install 'beautifulsoup4'
+                install "lxml"
+                install "jsonpath"
+                install "ujson"
+                install "pyquery"
             }
         }
     }
